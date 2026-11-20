@@ -1,0 +1,27 @@
+storage:
+  raw_container: "invoices-raw"
+  reports_container: "reports"
+  queue_name: "invoice-processing-queue"
+  sas_expiry_minutes: 15
+
+cosmos:
+  database_name: "cartnova"
+  container_name: "invoices"
+  partition_key: "/supplier_gstin"
+
+upload:
+  max_file_size_mb: 5
+  allowed_extensions:
+    - ".pdf"
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+
+supplier_service:
+  base_url: "http://127.0.0.1:5001"
+  timeout_seconds: 5
+
+worker:
+  poll_interval_seconds: 3
+  max_retries: 3
+  ocr_provider: "tesseract" # change to "azure" if using Azure Document Intelligence

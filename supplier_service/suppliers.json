@@ -1,0 +1,27 @@
+{
+  "29ABCDE1234F1Z5": {
+    "name": "Sri Lakshmi Traders",
+    "city": "Bengaluru",
+    "active": true
+  },
+  "27AABCU9603R1ZM": {
+    "name": "Deccan Electronics Pvt Ltd",
+    "city": "Mumbai",
+    "active": true
+  },
+  "33AAACN1234M1Z2": {
+    "name": "Marina Packaging Solutions",
+    "city": "Chennai",
+    "active": true
+  },
+  "07AAACG1234K1Z9": {
+    "name": "Capital Office Supplies",
+    "city": "New Delhi",
+    "active": true
+  },
+  "19BBBBB5678C1Z1": {
+    "name": "Old Bengal Distributors",
+    "city": "Kolkata",
+    "active": false
+  }
+}
